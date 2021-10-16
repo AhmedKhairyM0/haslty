@@ -1,0 +1,102 @@
+{
+  "addExpensePageTitle": "إضافة نفقة",
+  "@addExpensePageTitle": {},
+  "alert": "تحذير!!!",
+  "@alert": {
+    "description": "alert dialog"
+  },
+  "appName": "مراقب النفقات",
+  "@appName": {},
+  "balanceLabel": "رصيدك المالي الاسبوعي",
+  "@balanceLabel": {
+    "description": "Text label of text field describe gathering balance "
+  },
+  "cancle": "إلغاء",
+  "@cancle": {},
+  "chooseDate": "أختار تاريخ",
+  "@chooseDate": {
+    "description": "text label of button to choose date form date picker"
+  },
+  "contentAlertDialog": "رصيدك المالي {balance}",
+  "@contentAlertDialog": {
+    "description": "content of alert Dialog ",
+    "placeholders": {
+      "balance": {
+        "type": "String"
+      }
+    }
+  },
+  "contentDeleteDialog": "هل انت متأكد من حذف {expenseTitle}؟",
+  "@contentDeleteDialog": {
+    "placeholders": {
+      "expenseTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "contentReportBugs": "من فضبلك اخبر مطوري التطبيق عن الخطأ",
+  "@contentReportBugs": {},
+  "delete": "حذف",
+  "@delete": {},
+  "discardContent": "تم تجاهل هذه النفقات",
+  "@discardContent": {
+    "description": "show snack bar with discarding expense"
+  },
+  "editExpensePageTitle": "تعديل علي نفقات",
+  "@editExpensePageTitle": {},
+  "emptyDate": "لم تختار تاريخ بعد",
+  "@emptyDate": {
+    "description": "to describe no chosen date"
+  },
+  "emptyExpense": "لا يوجد نفقات حتي الان 🤑",
+  "@emptyExpense": {},
+  "expenseAmount": "الكمية",
+  "@expenseAmount": {
+    "description": "For translating expense amount of text field"
+  },
+  "expenseTitle": "فيما انفق",
+  "@expenseTitle": {
+    "description": "For translating expense title of text field"
+  },
+  "formattedErrorMessage": "الارقام فقد المسموح بها (0-9)",
+  "@formattedErrorMessage": {},
+  "homePageTitle": " رصيدي {balance}",
+  "@homePageTitle": {
+    "description": "Translate app bar title of home page",
+    "placeholders": {
+      "balance": {
+        "type": "double"
+      }
+    }
+  },
+  "alertNotFormattedNumber": "الكمية قيمته يجب ان تكون اكير من الصفر",
+  "@alertNotFormattedNumber": {},
+  "report": "إعلام المبرمجين",
+  "@report": {},
+  "resetExpense": "إعادة ضبط النفقات ",
+  "@resetExpense": {
+    "description": "Translate reset button icon tooltip"
+  },
+  "skip": "تخطئ",
+  "@skip": {
+    "description": "skip reporting bugs"
+  },
+  "titleDeleteDialog": "احذف نفقات هذا الأسبوع وابدأ في تتبع نفقات أسبوع آخر 🤑 ",
+  "@titleDeleteDialog": {},
+  "titleReportBugs": "خطأ مفاجئ",
+  "@titleReportBugs": {},
+  "trackBalance": "راقب رصيدك",
+  "@trackBalance": {},
+  "disableAddExpense": "للاسف ليس لديك رصيد",
+  "@disableAddExpense": {},
+  "chooseLanguage": "اختار اللغة",
+  "@chooseLanguage": {},
+  "addBalance": "أضف رصيدك الحالي",
+  "@addBalance": {},
+  "contactUs": "تواصل معنا",
+  "@contactUs": {},
+  "noMoney": "للاسف ليست لديك مال الان\nيجب أن تبدا بتوفير بعص المال لاحقا",
+  "@noMoney": {},
+  "choosePreferredTheme": "أختار اللون المفضل لك",
+  "@choosePreferredTheme": {}
+}

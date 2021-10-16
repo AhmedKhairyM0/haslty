@@ -1,0 +1,102 @@
+{
+  "addExpensePageTitle": "Add Expense",
+  "@addExpensePageTitle": {},
+  "alert": "Alert!!!",
+  "@alert": {
+    "description": "alert dialog"
+  },
+  "appName": "Expense Tracker",
+  "@appName": {},
+  "balanceLabel": "Weekly balance",
+  "@balanceLabel": {
+    "description": "Text label of text field describe gathering balance "
+  },
+  "cancle": "Cancle",
+  "@cancle": {},
+  "chooseDate": "Choose date",
+  "@chooseDate": {
+    "description": "text label of button to choose date form date picker"
+  },
+  "contentAlertDialog": "Your balance is {balance}",
+  "@contentAlertDialog": {
+    "description": "content of alert Dialog ",
+    "placeholders": {
+      "balance": {
+        "type": "String"
+      }
+    }
+  },
+  "contentDeleteDialog": "Do you certain delete {expenseTitle}?",
+  "@contentDeleteDialog": {
+    "placeholders": {
+      "expenseTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "contentReportBugs": "Please, report the error to developers for maintenance",
+  "@contentReportBugs": {},
+  "delete": "Delete",
+  "@delete": {},
+  "discardContent": "Discarded",
+  "@discardContent": {
+    "description": "show snack bar with discarding expense"
+  },
+  "editExpensePageTitle": "Edit Expense",
+  "@editExpensePageTitle": {},
+  "emptyDate": "No chosen date",
+  "@emptyDate": {
+    "description": "to describe no chosen date"
+  },
+  "emptyExpense": "No expenses yet 🤑",
+  "@emptyExpense": {},
+  "expenseAmount": "Amount",
+  "@expenseAmount": {
+    "description": "For translating expense amount of text field"
+  },
+  "expenseTitle": "Title",
+  "@expenseTitle": {
+    "description": "For translating expense title of text field"
+  },
+  "formattedErrorMessage": "Allowed input: numbers [0..9]",
+  "@formattedErrorMessage": {},
+  "homePageTitle": "My balance {balance}",
+  "@homePageTitle": {
+    "description": "Translate app bar title of home page",
+    "placeholders": {
+      "balance": {
+        "type": "String"
+      }
+    }
+  },
+  "alertNotFormattedNumber": "The number must be more than zero",
+  "@alertNotFormattedNumber": {},
+  "report": "Report",
+  "@report": {},
+  "resetExpense": "Reset expenses",
+  "@resetExpense": {
+    "description": "Translate reset button icon tooltip"
+  },
+  "skip": "Skip",
+  "@skip": {
+    "description": "skip reporting bugs"
+  },
+  "titleDeleteDialog": "Delete this week's expenses and start keeping track of another week's expenses 🤑",
+  "@titleDeleteDialog": {},
+  "titleReportBugs": "Sudden error!!",
+  "@titleReportBugs": {},
+  "trackBalance": "Track your balance",
+  "@trackBalance": {},
+  "disableAddExpense": "Sorry, you don't have en",
+  "@disableAddExpense": {},
+  "chooseLanguage": "Choose language",
+  "@chooseLanguage": {},
+  "addBalance": "Add current balance",
+  "@addBalance": {},
+  "contactUs": "Contact us",
+  "@contactUs": {},
+  "noMoney": "Sorry, you don't have money\nYou must start to save some money later",
+  "@noMoney": {},
+  "choosePreferredTheme": "Choose preferred theme",
+  "@choosePreferredTheme": {}
+}
