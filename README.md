@@ -21,3 +21,6 @@
   - Toggle between Arabic and English language.
   - Toggle between more than one theme.
   - Implementation UI to handle the state of errors, no data, loading data and loaded data.
+
+
+<!-- https://user-images.githubusercontent.com/79117370/137592363-e8af1c51-596c-4080-85a7-2c872ad65733.mp4 -->
