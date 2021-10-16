@@ -33,7 +33,7 @@
 
 <div align="center" width="200px" height="40px">
   <a href="https://github.com/AhmedKhairyM0/haslty/files/7357956/app-release.zip">
-  <img src="https://user-images.githubusercontent.com/79117370/137596552-26f317c5-4a08-4dbf-9f1a-473eede6ba64.png"/>
+  <img src="https://user-images.githubusercontent.com/79117370/137596989-1d05323f-42d2-4f8e-b38b-56a48a884cef.png"/>
   </a>
 </div>
 
