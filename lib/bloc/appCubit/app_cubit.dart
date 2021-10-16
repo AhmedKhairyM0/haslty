@@ -31,8 +31,14 @@ class AppCubit extends Cubit<AppStates> {
   }
 
   int indexSelectedColor = 0;
-  void changeTheme(int index) {
+  void setTheme(int index) async {
     indexSelectedColor = index;
+    await SharedCache().setTheme(SharedCache().themeKey, indexSelectedColor);
+    emit(AppChangedThemeState());
+  }
+
+  void getTheme() {
+    indexSelectedColor = SharedCache().getTheme(SharedCache().themeKey);
     emit(AppChangedThemeState());
   }
 }

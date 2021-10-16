@@ -1,3 +1,4 @@
+import 'package:expense_tracker/core/palette.dart';
 import 'package:expense_tracker/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -12,7 +13,10 @@ class ContactWithDev extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text(AppLocalizations.of(context)!.contactUs),
+        Text(
+          AppLocalizations.of(context)!.contactUs,
+          style: const TextStyle(fontWeight: FontWeight.w500),
+        ),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

@@ -32,10 +32,10 @@ class SharedCache {
 
   String getLocale(String key) => _sharedPreferences.getString(key) ?? 'en';
 
-  Future<bool> setTheme(String key, double balance) async =>
-      await _sharedPreferences.setDouble(key, balance);
+  Future<bool> setTheme(String key, int balance) async =>
+      await _sharedPreferences.setInt(key, balance);
 
-  bool getTheme(String key) => _sharedPreferences.getBool(key) ?? false;
+  int getTheme(String key) => _sharedPreferences.getInt(key) ?? 0;
 
   Future<bool> setFirstTime(String key, bool value) async =>
       await _sharedPreferences.setBool(key, value);

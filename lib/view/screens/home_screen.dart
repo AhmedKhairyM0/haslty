@@ -190,21 +190,21 @@ class _HomeScreenState extends State<HomeScreen> {
                             CircleButton(
                               color: Palette.kPrimaryColors[0],
                               onTap: () {
-                                AppCubit.of(context).changeTheme(0);
+                                AppCubit.of(context).setTheme(0);
                                 Navigator.pop(context);
                               },
                             ),
                             CircleButton(
                               color: Palette.kPrimaryColors[1],
                               onTap: () {
-                                AppCubit.of(context).changeTheme(1);
+                                AppCubit.of(context).setTheme(1);
                                 Navigator.pop(context);
                               },
                             ),
                             CircleButton(
                               color: Palette.kPrimaryColors[2],
                               onTap: () {
-                                AppCubit.of(context).changeTheme(2);
+                                AppCubit.of(context).setTheme(2);
                                 Navigator.pop(context);
                               },
                             ),
