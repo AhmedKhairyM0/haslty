@@ -27,7 +27,5 @@
 <a href="https://user-images.githubusercontent.com/79117370/137592363-e8af1c51-596c-4080-85a7-2c872ad65733.mp4" alt="App screenshot" title="Screenshot">Screenshot</a>
 
 # Download
-
-<a href="https://github.com/AhmedKhairyM0/haslty/files/7357870/app-release.zip"> 
  ![Download](https://toppng.com/uploads/preview/images-buttons-download-red-download-button-11562896412yilsysnxsr.png)
-</a>
+
