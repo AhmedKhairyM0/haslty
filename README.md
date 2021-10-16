@@ -29,5 +29,5 @@
 # Download
 
 <a href="https://github.com/AhmedKhairyM0/haslty/files/7357870/app-release.zip"> 
- <img src="https://toppng.com/uploads/preview/images-buttons-download-red-download-button-11562896412yilsysnxsr.png.jpg" alt="Download App"> 
+ ![Download](https://toppng.com/uploads/preview/images-buttons-download-red-download-button-11562896412yilsysnxsr.png)
 </a>
