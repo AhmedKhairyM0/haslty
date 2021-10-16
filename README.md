@@ -27,8 +27,7 @@
 <a href="https://user-images.githubusercontent.com/79117370/137592363-e8af1c51-596c-4080-85a7-2c872ad65733.mp4" alt="App screenshot" title="Screenshot">Screenshot</a>
 
 # Download
-[Download](https://github.com/AhmedKhairyM0/haslty/files/7357870/app-release.zip)
 
-<div style="border: 5px solid #FFFF00; padding: 50px 0;">
-<a href="https://github.com/AhmedKhairyM0/haslty/files/7357870/app-release.zip"> Download</a>
-</div>
+<a href="https://github.com/AhmedKhairyM0/haslty/files/7357870/app-release.zip"> 
+<div style="border: 5px solid #FFFF00; padding: 50px 0; width="150px" height="50px"></div>
+</a>
