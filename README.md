@@ -25,5 +25,5 @@
 # Screenshot
 
 <div align="center" width="500px" height="1200px">
-<a href="https://user-images.githubusercontent.com/79117370/137592363-e8af1c51-596c-4080-85a7-2c872ad65733.mp4" ></a>
+<a href="https://user-images.githubusercontent.com/79117370/137592363-e8af1c51-596c-4080-85a7-2c872ad65733.mp4" >Screenshot</a>
 </div>
