@@ -28,3 +28,7 @@
 
 # Download
 [Download](https://github.com/AhmedKhairyM0/haslty/files/7357870/app-release.zip)
+
+<div style="border: 5px solid #FFFF00; padding: 50px 0;">
+<a href="https://github.com/AhmedKhairyM0/haslty/files/7357870/app-release.zip"> Download</a>
+</div>
