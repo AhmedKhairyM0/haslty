@@ -32,7 +32,8 @@ class MyApp extends StatelessWidget {
             create: (_) => AppCubit()
               ..getLocale()
               ..getTheme()),
-        BlocProvider<ExpenseCubit>(create: (_) => ExpenseCubit()),
+        BlocProvider<ExpenseCubit>(
+            create: (_) => ExpenseCubit()..getWeeklyTotalBalance()),
       ],
       child: BlocBuilder<AppCubit, AppStates>(
         builder: (context, state) {

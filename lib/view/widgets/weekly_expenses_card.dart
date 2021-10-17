@@ -31,7 +31,7 @@ class WeeklyExpensesCard extends StatelessWidget {
                   children: cubit.weekDays.map((day) {
                     return FractionalExpenses(
                       expenses: cubit.expensesMap[day] ?? 0.0,
-                      balance: cubit.balance / 7.0,
+                      balance: cubit.weeklyTotalBalance / 7.0,
                       day: weekDayss[AppCubit.of(context).locale][day],
                       selectedColor: Palette.kPrimaryColors[
                           AppCubit.of(context).indexSelectedColor],

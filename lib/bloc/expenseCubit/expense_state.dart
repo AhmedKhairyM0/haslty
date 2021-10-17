@@ -31,7 +31,5 @@ class NotAvailableBalanceState extends ExpenseStates {
 
 class BalanceSettedState extends ExpenseStates {}
 
-// class BalanceRetrievedState extends ExpenseStates {}
+class BalanceRetrievedState extends ExpenseStates {}
 
-// localization
-class LocaleChangedState extends ExpenseStates {}

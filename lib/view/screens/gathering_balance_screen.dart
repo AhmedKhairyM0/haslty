@@ -62,6 +62,9 @@ class _GatheringBalanceScreenState extends State<GatheringBalanceScreen> {
                           var balance = double.parse(balanceController.text);
                           if (balance > 0) {
                             ExpenseCubit.of(context).setBalance(balance);
+                            ExpenseCubit.of(context)
+                                .setWeeklyTotalBalance(balance);
+
                             Utils.toAndFinish(
                                 context, RouteGenerator.homeScreen);
                           } else {

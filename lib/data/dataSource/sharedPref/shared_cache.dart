@@ -18,6 +18,7 @@ class SharedCache {
   }
 
   final balanceKey = 'balance';
+  final totalBalanceKey = 'totalBalance';
   final localeKey = 'locale';
   final themeKey = 'theme';
   final firstOpenKey = 'firstOpen';
@@ -26,6 +27,12 @@ class SharedCache {
       await _sharedPreferences.setDouble(key, balance);
 
   double getBalance(String key) => _sharedPreferences.getDouble(key) ?? 0.0;
+  
+  Future<bool> setWeeklyTotalBalance(String key, double balance) async =>
+      await _sharedPreferences.setDouble(key, balance);
+
+  double getWeeklyTotalBalance(String key) => _sharedPreferences.getDouble(key) ?? 0.0;
+
 
   Future<bool> setLocale(String key, String locale) async =>
       await _sharedPreferences.setString(key, locale);

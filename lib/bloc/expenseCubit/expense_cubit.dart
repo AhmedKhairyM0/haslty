@@ -62,6 +62,7 @@ class ExpenseCubit extends Cubit<ExpenseStates> {
     emit(ExpenseLoadingState());
     ExpenseCache().deleteAllForEver().then((_) {
       setBalance(0);
+      setWeeklyTotalBalance(0);
       emit(ExpenseDeletedState());
     }).catchError((error) {
       emit(ExpenseErrorState(error.toString()));
@@ -125,10 +126,38 @@ class ExpenseCubit extends Cubit<ExpenseStates> {
         this.balance = balance;
         emit(BalanceSettedState());
       }
-    }).catchError((error) {});
+    }).catchError((error) {
+      emit(ExpenseErrorState(
+          'Error: expense_cubit.setBalance :: Balance is not saved :: $error'));
+    });
   }
 
   void getBalance() {
     balance = SharedCache().getBalance(SharedCache().balanceKey);
+  }
+
+  double weeklyTotalBalance = 0;
+  void setWeeklyTotalBalance(double weeklyTotalBalance) {
+    SharedCache()
+        .setWeeklyTotalBalance(
+            SharedCache().totalBalanceKey, weeklyTotalBalance)
+        .then((isSaved) {
+      if (isSaved) {
+        this.weeklyTotalBalance = weeklyTotalBalance;
+        emit(BalanceSettedState());
+      }
+    }).catchError((error) {
+      emit(ExpenseErrorState(
+          'Error: expense_cubit.setBalance :: Balance is not saved :: $error'));
+    });
+  }
+
+  void getWeeklyTotalBalance() {
+    weeklyTotalBalance =
+        SharedCache().getWeeklyTotalBalance(SharedCache().balanceKey);
+    print('-------------------------');
+    print('getWeeklyTotalBalance:: weekly balance: ${weeklyTotalBalance}');
+    print('-------------------------');
+    emit(BalanceRetrievedState());
   }
 }
