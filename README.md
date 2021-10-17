@@ -32,7 +32,7 @@
 # Download
 
 <div align="center" width="200px" height="40px">
-  <a href="https://github.com/AhmedKhairyM0/haslty/blob/main/build/app/outputs/flutter-apk/haslty-apk.zip">
+  <a href="https://github.com/AhmedKhairyM0/haslty/blob/main/build/app/outputs/flutter-apk/haslty-apk.zip?raw=true">
   <img src="https://user-images.githubusercontent.com/79117370/137596989-1d05323f-42d2-4f8e-b38b-56a48a884cef.png"/>
   </a>
 </div>
