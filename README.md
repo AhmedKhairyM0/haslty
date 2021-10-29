@@ -28,9 +28,7 @@
 <!-- https://user-images.githubusercontent.com/79117370/137592363-e8af1c51-596c-4080-85a7-2c872ad65733.mp4 -->
 
 <!-- <a href="https://youtu.be/Ko-redI1tcI" alt="App screenshot" title="Screenshot">Screenshot</a> -->
- <iframe width="420" height="315"
-src="https://youtu.be/Ko-redI1tcI">
-</iframe> 
+[![Haslty Screenshot](https://img.youtube.com/vi/Ko-redI1tcI/0.jpg)](https://www.youtube.com/watch?v=Ko-redI1tcI&ab_channel=AhmedKhairy)
 
 # Download
 
